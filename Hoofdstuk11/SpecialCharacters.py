@@ -1,0 +1,5 @@
+print("Een deel van deze tekst\r\nstaat op de volgende regel.")
+print("Dit is een A met een accent grave: \xC0.")
+print("Dit is een tekeningteken: \u2562.")
+print("Dit is een alineateken: \266.")
+print("Dit is een deelteken: \xF7.")
