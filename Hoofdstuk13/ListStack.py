@@ -1,26 +1,22 @@
 MyStack = []
 StackSize = 3
 
-
 def DisplayStack():
-    print("Stapel bevat nu:")
-    for Item in MyStack:
-        print(Item)
-
-
+   print("Stapel bevat nu:")
+   for Item in MyStack:
+      print(Item)
+   
 def Push(Value):
-    if len(MyStack) < StackSize:
-        MyStack.append(Value)
-    else:
-        print("Stapel is vol!")
-
+   if len(MyStack) < StackSize:
+      MyStack.append(Value)
+   else:
+      print("Stapel is vol!")
 
 def Pop():
-    if len(MyStack) > 0:
-        MyStack.pop()
-    else:
-        print("Stapel is leeg.")
-
+   if len(MyStack) > 0:
+      MyStack.pop()
+   else:
+      print("Stapel is leeg.")
 
 Push(1)
 Push(2)

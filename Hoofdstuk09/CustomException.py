@@ -1,8 +1,7 @@
 class CustomValueError(ValueError):
-    def __init__(self, arg):
-        self.strerror = arg
-        self.args = {arg}
-
+   def __init__(self, arg):
+      self.strerror = arg
+      self.args = {arg}
 
 try:
     raise CustomValueError("Waarde moet liggen tussen 1 en 10.")

@@ -5,6 +5,6 @@
 """
 
 # Dit is commentaar.
-print("Hallo van Python!")  # Dit is ook commentaar.
+print("Hallo van Python!") #Dit is ook commentaar.
 
 print("Deze code is met commentaar uitgeschakeld.")

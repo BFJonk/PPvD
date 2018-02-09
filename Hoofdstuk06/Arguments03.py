@@ -1,6 +1,5 @@
-def Hello3(Groet="geen waarde opgegeven"):
+def Hello3(Groet = "geen waarde opgegeven"):
     print(Groet)
-
 
 Hello3()
 Hello3("Dit is een string.")

@@ -1,6 +1,6 @@
 def Hello():
-    print(�Dit is mijn
+    print('Dit is mijn
     eerste
-    Python - functie!�)
+    Python - functie!')
 
-    Hello()
+Hello()

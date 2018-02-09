@@ -1,7 +1,7 @@
 import sys
 
 try:
-    File = open('myfile.txt')
+   File = open('myfile.txt')
 except IOError as e:
     for Args in e.args:
         print(Args)
@@ -9,5 +9,5 @@ except IOError as e:
           "Foutnummer: {0}\r\n".format(e.errno) +
           "Fouttekst: {0}".format(e.strerror))
 else:
-    print("Bestand probleemloos geopend.")
-    File.close();
+   print("Bestand probleemloos geopend.")
+   File.close();

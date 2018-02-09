@@ -13,3 +13,5 @@ print(max(MyString))
 
 print(MyString.split())
 print(MyString.split()[0])
+print(MyString.center(21, " "))
+print(MyString.center(21, " ").strip())
